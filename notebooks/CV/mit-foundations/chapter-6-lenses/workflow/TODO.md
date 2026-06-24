@@ -39,3 +39,17 @@ Status: ⬜ not started · 🟡 in progress · ✅ committed
 | ✅ | Fig 6.12 | `images/fig06_12.png` | Synthesize. Photographic depth of field vs aperture (depth-dependent blur). |
 
 > **Resolved 2026-06-24:** the Fig 6.9(e) anomaly is fixed — renamed to Fig 6.11, saving to `fig06_11.png` (§6.3.1); orphan PNGs cleaned up.
+
+## 6.3.2 — Concave Lenses
+
+| Status | Book ref | Output file | Strategy |
+|---|---|---|---|
+| ✅ | Fig 6.13 (a–c) | `images/fig06_13.png` | Synthesize. Convex and concave thin-lens behavior — converging real focus, diverging virtual focus, and a tilted parallel bundle through the diverging lens. |
+
+## 6.3.3 — Lenses in a Telescope
+
+| Status | Book ref | Output file | Strategy |
+|---|---|---|---|
+| ✅ | Fig 6.14 (a, b) | `images/fig06_14ab.png` | Synthesize. Galilean telescope — two-lens angular magnification $M = f_1/f_2$. |
+| — | Fig 6.15 | — | Skip. Physical photo (cardboard telescope recreation). Acknowledged in prose. |
+| — | Fig 6.16 | — | Skip. Physical photo (moon through the telescope + Galileo's lunar drawings). Acknowledged in prose. |

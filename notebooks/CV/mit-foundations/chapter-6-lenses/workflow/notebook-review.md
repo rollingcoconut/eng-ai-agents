@@ -9,6 +9,18 @@ Status: 🔴 open · 🟡 in progress · ✅ resolved · 💬 needs human decisi
 
 ---
 
+## 2026-06-24 (cont. 8) — Supervisor confirmation: full conformance
+
+Fig 6.1 re-added (§6.1) and the helpers-to-top ordering bug is resolved (drawing-helpers/`COLORS` now at cell 4, before Fig 6.1). Full scan:
+
+- ✅ `hide-input` on all 13 figure cells (added the 2 that were missing: Fig 6.1, Fig 6.14); drawing-helpers cell is the only tagged non-figure cell.
+- ✅ No toolchain talk in comments or markdown · 0 NumPy · voice clean · no `COLORS`-duplicate hex literals · no duplicate cells · no dead helpers · no stray images.
+- ✅ **Top-to-bottom execution SUCCEEDS** — 13 figures render.
+
+**Tidy applied (same session):** moved physics-primitives up next to drawing-helpers, so both helper cells now sit adjacent right after imports (cells 2–3), before §6.1. While tidying, found and removed a **floating "Notation for this section." table cell** — the churn had re-added the §6.2 notation table (removed in committed edit 2b) as a stray cell misplaced *before* §6.1. Final: **44 cells, 13 figures all `hide-input`, 0 NumPy, 0 duplicate/stray, top-to-bottom run SUCCEEDS, all figures byte-identical** (reorder moved zero pixels). Layout: intro → imports → physics-helpers → drawing-helpers → §6.1 → Fig 6.1 → §6.2 …
+
+---
+
 ## 2026-06-24 (cont. 7) — Markdown cleanup pass + Fig 6.11 patch (per cleanup-task drop)
 
 Applied the 16 edits from the cleanup task. Notebook runs top-to-bottom; 0 NumPy; 0 toolchain-in-markdown.
